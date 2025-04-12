@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="19" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-12T16:28:16 IST" name="Suite" finished-at="2025-04-12T16:41:56 IST" duration-ms="819910">
+    <groups>
+    </groups>
+    <test started-at="2025-04-12T16:28:16 IST" name="Test" finished-at="2025-04-12T16:41:56 IST" duration-ms="819910">
+      <class name="TestCases.ChangePasswordPageTC">
+        <test-method is-config="true" signature="setupPageObjects()[pri:0, instance:TestCases.ChangePasswordPageTC@1f59a598]" started-at="2025-04-12T16:38:39 IST" name="setupPageObjects" finished-at="2025-04-12T16:38:45 IST" duration-ms="5881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPageObjects -->
+        <test-method signature="backtorestconfigpassword()[pri:0, instance:TestCases.ChangePasswordPageTC@1f59a598]" started-at="2025-04-12T16:38:45 IST" name="backtorestconfigpassword" finished-at="2025-04-12T16:38:51 IST" duration-ms="6265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backtorestconfigpassword -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:TestCases.ChangePasswordPageTC@1f59a598]" started-at="2025-04-12T16:38:51 IST" name="postCondition" finished-at="2025-04-12T16:38:52 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- TestCases.ChangePasswordPageTC -->
+      <class name="TestCases.BookhotelTC">
+        <test-method is-config="true" signature="setupPageObjects()[pri:0, instance:TestCases.BookhotelTC@f79e]" started-at="2025-04-12T16:33:11 IST" name="setupPageObjects" finished-at="2025-04-12T16:33:17 IST" duration-ms="6071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPageObjects -->
+        <test-method signature="bookNowcomplete()[pri:0, instance:TestCases.BookhotelTC@f79e]" started-at="2025-04-12T16:33:17 IST" name="bookNowcomplete" finished-at="2025-04-12T16:33:42 IST" duration-ms="24934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookNowcomplete -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:TestCases.BookhotelTC@f79e]" started-at="2025-04-12T16:33:42 IST" name="postCondition" finished-at="2025-04-12T16:33:42 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="setupPageObjects()[pri:0, instance:TestCases.BookhotelTC@f79e]" started-at="2025-04-12T16:33:42 IST" name="setupPageObjects" finished-at="2025-04-12T16:33:48 IST" duration-ms="6000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPageObjects -->
+        <test-method signature="booknowPageerrorValidation()[pri:0, instance:TestCases.BookhotelTC@f79e]" started-at="2025-04-12T16:33:48 IST" name="booknowPageerrorValidation" finished-at="2025-04-12T16:34:24 IST" duration-ms="35893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- booknowPageerrorValidation -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:TestCases.BookhotelTC@f79e]" started-at="2025-04-12T16:34:24 IST" name="postCondition" finished-at="2025-04-12T16:34:25 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- TestCases.BookhotelTC -->
+      <class name="TestCases.BookConfirmPageTC">
+        <test-method is-config="true" signature="setupPageObjects()[pri:0, instance:TestCases.BookConfirmPageTC@1e178745]" started-at="2025-04-12T16:38:52 IST" name="setupPageObjects" finished-at="2025-04-12T16:38:58 IST" duration-ms="6125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPageObjects -->
+        <test-method signature="afterbooklogoutpage()[pri:0, instance:TestCases.BookConfirmPageTC@1e178745]" started-at="2025-04-12T16:38:58 IST" name="afterbooklogoutpage" finished-at="2025-04-12T16:39:46 IST" duration-ms="48604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterbooklogoutpage -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:TestCases.BookConfirmPageTC@1e178745]" started-at="2025-04-12T16:39:46 IST" name="postCondition" finished-at="2025-04-12T16:39:47 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="setupPageObjects()[pri:0, instance:TestCases.BookConfirmPageTC@1e178745]" started-at="2025-04-12T16:39:47 IST" name="setupPageObjects" finished-at="2025-04-12T16:39:53 IST" duration-ms="6597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPageObjects -->
+        <test-method signature="afterbookmyitinerarypage()[pri:0, instance:TestCases.BookConfirmPageTC@1e178745]" started-at="2025-04-12T16:39:53 IST" name="afterbookmyitinerarypage" finished-at="2025-04-12T16:40:46 IST" duration-ms="52488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterbookmyitinerarypage -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:TestCases.BookConfirmPageTC@1e178745]" started-at="2025-04-12T16:40:46 IST" name="postCondition" finished-at="2025-04-12T16:40:46 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="setupPageObjects()[pri:0, instance:TestCases.BookConfirmPageTC@1e178745]" started-at="2025-04-12T16:40:46 IST" name="setupPageObjects" finished-at="2025-04-12T16:40:52 IST" duration-ms="5882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPageObjects -->
+        <test-method signature="afterbookmyitinerarypageValueVerify()[pri:0, instance:TestCases.BookConfirmPageTC@1e178745]" started-at="2025-04-12T16:40:52 IST" name="afterbookmyitinerarypageValueVerify" finished-at="2025-04-12T16:41:36 IST" duration-ms="44093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterbookmyitinerarypageValueVerify -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:TestCases.BookConfirmPageTC@1e178745]" started-at="2025-04-12T16:41:36 IST" name="postCondition" finished-at="2025-04-12T16:41:37 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="setupPageObjects()[pri:0, instance:TestCases.BookConfirmPageTC@1e178745]" started-at="2025-04-12T16:41:37 IST" name="setupPageObjects" finished-at="2025-04-12T16:41:43 IST" duration-ms="6555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPageObjects -->
+        <test-method signature="afterbooksearchpage()[pri:0, instance:TestCases.BookConfirmPageTC@1e178745]" started-at="2025-04-12T16:41:43 IST" name="afterbooksearchpage" finished-at="2025-04-12T16:41:56 IST" duration-ms="12813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterbooksearchpage -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:TestCases.BookConfirmPageTC@1e178745]" started-at="2025-04-12T16:41:56 IST" name="postCondition" finished-at="2025-04-12T16:41:56 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- TestCases.BookConfirmPageTC -->
+      <class name="TestCases.BookItineraryPageTC">
+        <test-method is-config="true" signature="setupPageObjects()[pri:0, instance:TestCases.BookItineraryPageTC@7ee8290b]" started-at="2025-04-12T16:34:25 IST" name="setupPageObjects" finished-at="2025-04-12T16:34:30 IST" duration-ms="5213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPageObjects -->
+        <test-method signature="bookHotelandCancelOrder()[pri:0, instance:TestCases.BookItineraryPageTC@7ee8290b]" started-at="2025-04-12T16:34:30 IST" name="bookHotelandCancelOrder" finished-at="2025-04-12T16:35:43 IST" duration-ms="73539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookHotelandCancelOrder -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:TestCases.BookItineraryPageTC@7ee8290b]" started-at="2025-04-12T16:35:44 IST" name="postCondition" finished-at="2025-04-12T16:35:44 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="setupPageObjects()[pri:0, instance:TestCases.BookItineraryPageTC@7ee8290b]" started-at="2025-04-12T16:35:44 IST" name="setupPageObjects" finished-at="2025-04-12T16:35:50 IST" duration-ms="6023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPageObjects -->
+        <test-method signature="logoutfromBookItinerary()[pri:0, instance:TestCases.BookItineraryPageTC@7ee8290b]" started-at="2025-04-12T16:35:50 IST" name="logoutfromBookItinerary" finished-at="2025-04-12T16:36:43 IST" duration-ms="52739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutfromBookItinerary -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:TestCases.BookItineraryPageTC@7ee8290b]" started-at="2025-04-12T16:36:43 IST" name="postCondition" finished-at="2025-04-12T16:36:43 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="setupPageObjects()[pri:0, instance:TestCases.BookItineraryPageTC@7ee8290b]" started-at="2025-04-12T16:36:43 IST" name="setupPageObjects" finished-at="2025-04-12T16:36:49 IST" duration-ms="6498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPageObjects -->
+        <test-method signature="searchOrderID()[pri:0, instance:TestCases.BookItineraryPageTC@7ee8290b]" started-at="2025-04-12T16:36:49 IST" name="searchOrderID" finished-at="2025-04-12T16:38:39 IST" duration-ms="109256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchOrderID -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:TestCases.BookItineraryPageTC@7ee8290b]" started-at="2025-04-12T16:38:39 IST" name="postCondition" finished-at="2025-04-12T16:38:39 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- TestCases.BookItineraryPageTC -->
+      <class name="TestCases.SearchHotelTC">
+        <test-method is-config="true" signature="setupPageObjects()[pri:0, instance:TestCases.SearchHotelTC@4c178a76]" started-at="2025-04-12T16:28:16 IST" name="setupPageObjects" finished-at="2025-04-12T16:28:25 IST" duration-ms="9003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPageObjects -->
+        <test-method signature="cancelBtnValidation()[pri:0, instance:TestCases.SearchHotelTC@4c178a76]" started-at="2025-04-12T16:28:25 IST" name="cancelBtnValidation" finished-at="2025-04-12T16:29:13 IST" duration-ms="47431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelBtnValidation -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:TestCases.SearchHotelTC@4c178a76]" started-at="2025-04-12T16:29:13 IST" name="postCondition" finished-at="2025-04-12T16:29:13 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="setupPageObjects()[pri:0, instance:TestCases.SearchHotelTC@4c178a76]" started-at="2025-04-12T16:29:13 IST" name="setupPageObjects" finished-at="2025-04-12T16:29:20 IST" duration-ms="6193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPageObjects -->
+        <test-method signature="continueBtnvalidation()[pri:0, instance:TestCases.SearchHotelTC@4c178a76]" started-at="2025-04-12T16:29:20 IST" name="continueBtnvalidation" finished-at="2025-04-12T16:29:52 IST" duration-ms="32163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continueBtnvalidation -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:TestCases.SearchHotelTC@4c178a76]" started-at="2025-04-12T16:29:52 IST" name="postCondition" finished-at="2025-04-12T16:29:52 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="setupPageObjects()[pri:0, instance:TestCases.SearchHotelTC@4c178a76]" started-at="2025-04-12T16:29:52 IST" name="setupPageObjects" finished-at="2025-04-12T16:29:58 IST" duration-ms="6148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPageObjects -->
+        <test-method signature="optionSelectsearchhotel()[pri:0, instance:TestCases.SearchHotelTC@4c178a76]" started-at="2025-04-12T16:29:58 IST" name="optionSelectsearchhotel" finished-at="2025-04-12T16:30:22 IST" duration-ms="23956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- optionSelectsearchhotel -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:TestCases.SearchHotelTC@4c178a76]" started-at="2025-04-12T16:30:22 IST" name="postCondition" finished-at="2025-04-12T16:30:23 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="setupPageObjects()[pri:0, instance:TestCases.SearchHotelTC@4c178a76]" started-at="2025-04-12T16:30:23 IST" name="setupPageObjects" finished-at="2025-04-12T16:30:29 IST" duration-ms="5978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPageObjects -->
+        <test-method signature="pageNavigation()[pri:0, instance:TestCases.SearchHotelTC@4c178a76]" started-at="2025-04-12T16:30:29 IST" name="pageNavigation" finished-at="2025-04-12T16:30:53 IST" duration-ms="24733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageNavigation -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:TestCases.SearchHotelTC@4c178a76]" started-at="2025-04-12T16:30:53 IST" name="postCondition" finished-at="2025-04-12T16:30:54 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="setupPageObjects()[pri:0, instance:TestCases.SearchHotelTC@4c178a76]" started-at="2025-04-12T16:30:54 IST" name="setupPageObjects" finished-at="2025-04-12T16:31:00 IST" duration-ms="6003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPageObjects -->
+        <test-method signature="resetHotelSearch()[pri:0, instance:TestCases.SearchHotelTC@4c178a76]" started-at="2025-04-12T16:31:00 IST" name="resetHotelSearch" finished-at="2025-04-12T16:31:38 IST" duration-ms="38232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetHotelSearch -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:TestCases.SearchHotelTC@4c178a76]" started-at="2025-04-12T16:31:38 IST" name="postCondition" finished-at="2025-04-12T16:31:38 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="setupPageObjects()[pri:0, instance:TestCases.SearchHotelTC@4c178a76]" started-at="2025-04-12T16:31:38 IST" name="setupPageObjects" finished-at="2025-04-12T16:31:45 IST" duration-ms="6397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPageObjects -->
+        <test-method signature="userNameverify()[pri:0, instance:TestCases.SearchHotelTC@4c178a76]" started-at="2025-04-12T16:31:45 IST" name="userNameverify" finished-at="2025-04-12T16:32:12 IST" duration-ms="27775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userNameverify -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:TestCases.SearchHotelTC@4c178a76]" started-at="2025-04-12T16:32:13 IST" name="postCondition" finished-at="2025-04-12T16:32:13 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="setupPageObjects()[pri:0, instance:TestCases.SearchHotelTC@4c178a76]" started-at="2025-04-12T16:32:13 IST" name="setupPageObjects" finished-at="2025-04-12T16:32:19 IST" duration-ms="6344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPageObjects -->
+        <test-method signature="verifySearchResult()[pri:0, instance:TestCases.SearchHotelTC@4c178a76]" started-at="2025-04-12T16:32:19 IST" name="verifySearchResult" finished-at="2025-04-12T16:32:53 IST" duration-ms="33953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchResult -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:TestCases.SearchHotelTC@4c178a76]" started-at="2025-04-12T16:32:53 IST" name="postCondition" finished-at="2025-04-12T16:32:54 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="setupPageObjects()[pri:0, instance:TestCases.SearchHotelTC@4c178a76]" started-at="2025-04-12T16:32:54 IST" name="setupPageObjects" finished-at="2025-04-12T16:32:59 IST" duration-ms="5886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupPageObjects -->
+        <test-method signature="withoutlocationsearch()[pri:0, instance:TestCases.SearchHotelTC@4c178a76]" started-at="2025-04-12T16:32:59 IST" name="withoutlocationsearch" finished-at="2025-04-12T16:33:09 IST" duration-ms="9673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withoutlocationsearch -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:TestCases.SearchHotelTC@4c178a76]" started-at="2025-04-12T16:33:09 IST" name="postCondition" finished-at="2025-04-12T16:33:11 IST" duration-ms="1754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- TestCases.SearchHotelTC -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
