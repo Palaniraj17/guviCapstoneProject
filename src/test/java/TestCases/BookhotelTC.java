@@ -21,7 +21,7 @@ public class BookhotelTC extends baseclass{
 	BookingConfirmationPage bcp;
 	BookedItineraryPage bip;
 
-	@BeforeMethod
+	@BeforeMethod(description="TC_01")
 	public void setupPageObjects() throws IOException 
 	{
 		preCondition();
@@ -41,7 +41,7 @@ public class BookhotelTC extends baseclass{
 		bhp.clickBookNowwithoutfill();
 	}
 
-	@Test
+	@Test(description="TC_006")
 	public void bookNowcomplete() throws IOException, InterruptedException {
 		bip.deleteAllbookings();
 		shp.FillOptionsSearchHotel();

@@ -20,7 +20,7 @@ public class BookItineraryPageTC extends baseclass {
 	BookingConfirmationPage bcp;
 	BookedItineraryPage bip;
 
-	@BeforeMethod
+	@BeforeMethod(description="TC_01")
 	public void setupPageObjects() throws IOException 
 	{
 		preCondition();
@@ -31,7 +31,7 @@ public class BookItineraryPageTC extends baseclass {
 		bip=new BookedItineraryPage(driver);
 	}
 	
-	@Test
+	@Test(description="TC_011")
 	public void logoutfromBookItinerary() throws IOException, InterruptedException {
 		bip.deleteAllbookings();
 		shp.FillOptionsSearchHotel();
@@ -45,7 +45,7 @@ public class BookItineraryPageTC extends baseclass {
 		bip.clickloutBtnBookItinerary();
 	}
 
-	@Test
+	@Test(description="TC_010")
 	public void searchOrderID() throws IOException, InterruptedException {
 		bip.deleteAllbookings();
 		shp.FillOptionsSearchHotel();
@@ -58,7 +58,7 @@ public class BookItineraryPageTC extends baseclass {
 	}
 	
 
-	@Test
+	@Test(description="TC_009")
 	public void bookHotelandCancelOrder() throws IOException, InterruptedException {
 		bip.deleteAllbookings();
 		shp.FillOptionsSearchHotel();

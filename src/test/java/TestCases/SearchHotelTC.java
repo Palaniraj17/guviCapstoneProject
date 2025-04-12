@@ -17,7 +17,7 @@ public class SearchHotelTC extends baseclass {
 	String searchInput[] = { "Sydney", "Hotel Hervey", "Double", "6 - Six", 
 			"10/04/2025", "10/06/2025", "4 - Four","4 - Four" };
 	
-	@BeforeMethod
+	@BeforeMethod(description="TC_01")
 	public void setupPageObjects() throws IOException 
 	{
 		preCondition();
@@ -39,7 +39,7 @@ public class SearchHotelTC extends baseclass {
 		shp.clickChangepwd();
 	}
 
-	@Test
+	@Test(description="TC_002")
 	public void optionSelectsearchhotel() throws IOException, InterruptedException 
 	{
 		bip.deleteAllbookings();
@@ -54,7 +54,7 @@ public class SearchHotelTC extends baseclass {
 		shp.searchHotelVerify();
 	}
 
-	@Test
+	@Test(description="TC_004")
 	public void resetHotelSearch() throws IOException, InterruptedException 
 	{
 		bip.deleteAllbookings();
@@ -63,7 +63,7 @@ public class SearchHotelTC extends baseclass {
 		shp.resetsearchHtlVerify();
 	}
 
-	@Test
+	@Test(description="TC_003")
 	public void withoutlocationsearch() throws IOException, InterruptedException 
 	{
 		bip.deleteAllbookings();
@@ -80,8 +80,7 @@ public class SearchHotelTC extends baseclass {
 		shp.clickChangepwd();
 	}
 
-	@Test
-
+	@Test(description="TC_005")
 	public void verifySearchResult() throws IOException, InterruptedException 
 	{
 		bip.deleteAllbookings();
@@ -105,6 +104,5 @@ public class SearchHotelTC extends baseclass {
 		optionSelectsearchhotel();
 		shp.getColumnDetails();
 		shrp.clickCancelbuttonsearchresults();
-		//alertAccept(driver);
 	}
 }

@@ -16,7 +16,7 @@ public class ChangePasswordPageTC extends baseclass{
 	String newPassword="Iambala6*";
 	Properties prop;
 
-	@BeforeMethod
+	@BeforeMethod(description="TC_01")
 	public void setupPageObjects() throws IOException 
 	{
 		preCondition();
@@ -28,7 +28,7 @@ public class ChangePasswordPageTC extends baseclass{
 		cpp.changePwd(newPassword);//New Password
 	}
 	
-	@Test(enabled=true)
+	@Test(enabled=true,description="TC_012")
 	public void backtorestconfigpassword() throws IOException {
 		cpp.changePwd(newPassword);//New Password
 		cpp.backtoDefpassword(newPassword);
